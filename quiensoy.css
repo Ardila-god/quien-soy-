@@ -429,6 +429,12 @@ p{
 }
 
 @media (max-width: 700px){
+    .inf-css, .inf-html, .inf-js, .inf-php{
+        font-size: 65%;
+    }
+    .text-cont-2{
+        font-size: 165%;
+    }
     .cont-1{
         display: flex;
         justify-content: center;
