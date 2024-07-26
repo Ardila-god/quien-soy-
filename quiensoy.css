@@ -86,7 +86,7 @@ p{
     font-size: 60px;
     color: aqua;
     text-transform: uppercase;
-
+    margin-top: 60px;
 }
 
 .text-cont-1{
@@ -151,7 +151,7 @@ p{
     padding: 5%;
     grid-template-columns: repeat(4, 1fr);
     gap: 5%;
-    height: 600px;
+    height: 700px;
 
 }
 
@@ -378,8 +378,12 @@ p{
 }
 
 @media (max-width: 1268px){
+    .titulo1{
+        margin-top: 0;
+    }
     .cont-3{
         grid-template-columns: repeat(3, 1fr);
+        height: 1500px;
     }
     .cont-1{
         display: flex;
